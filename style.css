@@ -29,4 +29,14 @@ button{
     margin: 1rem 0;
     background-color: black;
     color: #fff;
+    font-size: 18px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 0.50rem;
+    outline: none;
+    border: none;
 }
