@@ -18,6 +18,5 @@ function generateRGB() {
     const green = Math.floor(Math.random() * 255);
     const blue = Math.floor(Math.random() * 255);
 
-    return `rgb(${red}, ${green}, ${blue})`;
+    return `#(${red.toString(16)}${green.toString()}$16{blue.toString(16)})`;
 }
-    
